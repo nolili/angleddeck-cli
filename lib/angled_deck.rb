@@ -1,0 +1,10 @@
+require "pathname"
+require "yaml"
+require "active_support/hash_with_indifferent_access"
+require "aws-sdk"
+require "securerandom"
+require "httpclient"
+
+require "angled_deck/version"
+require "angled_deck/config"
+require "angled_deck/client"

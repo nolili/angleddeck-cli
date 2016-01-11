@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require "angled_deck"
+require "angled_deck/cli"
+
+AngledDeck::CLI.start(ARGV)
